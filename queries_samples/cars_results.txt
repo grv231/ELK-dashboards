@@ -1,0 +1,6 @@
+GET /cars/_search
+{
+  "query":{
+    "match_all":{}
+  }
+}
